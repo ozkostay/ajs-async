@@ -6,12 +6,12 @@ test('GameSavingLoader load()', async (done) => {
   done();
 });
 
-test('GameSavingLoader load()', async () => {
-  expect.assertions(1);
-  try{
-    const data = await GameSavingLoader.load();
-  }
-  catch(error){
-    expect(error.name).toEqual('getUsernameError');
-  }
-});
+// test('GameSavingLoader load()', async () => {
+//   expect.assertions(1);
+//   try{
+//     const data = await GameSavingLoader.load();
+//   }
+//   catch(error){
+//     expect(error.name).toEqual('getUsernameError');
+//   }
+// });
